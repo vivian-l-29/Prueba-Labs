@@ -34,6 +34,11 @@ export function banner2() {
     loginBoton.textContent = "LOG IN";
     div.appendChild(loginBoton);
 
+    loginBoton.addEventListener('click',()=>{
+        div.classList.add ("ocultar");
+    });
+
+
     // Separador "OR"
     let separator = document.createElement("div");
     separator.className = "separator";
