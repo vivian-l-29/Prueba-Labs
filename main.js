@@ -4,7 +4,6 @@ import { banner2 } from "./componentes/banner2/banner2.js";
 let contenedor = document.createElement("div");
 document.body.appendChild(contenedor);
 
-// Muestra banner 1 al inicio
 let banner1 = banner();
 contenedor.appendChild(banner1);
 
