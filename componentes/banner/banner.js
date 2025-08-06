@@ -7,9 +7,10 @@ export function banner() {
     div.appendChild(span);
 
     let aBoton = document.createElement("a");
-    aBoton.className = "banner-boton";
-    aBoton.href = "../../pages/home.html";
+    aBoton.className = "banner-boton"; 
     aBoton.textContent = "SHOP NOW";
+    aBoton.href = "#";
+
     div.appendChild(aBoton);
 
     return div;
