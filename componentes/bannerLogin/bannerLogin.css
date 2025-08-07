@@ -1,0 +1,124 @@
+.login-fondo {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../../assets/fonts/Login.png'); /* Ajusta la ruta */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  font-family: Arial, sans-serif;
+}
+
+.login-titulo {
+  position: absolute;
+  font-size: 28px;
+  top: 145px;
+  margin-right: 180px;
+  color: white;
+  font-weight: bold;
+}
+
+.log-in{
+  position: absolute;
+  margin-right: 80px;
+  font-size: 20px;
+  top: 405px;
+  font-weight: 700;
+  margin-right: 320px;
+  color: #fff4f4;
+}
+.login-descripcion {
+  position: absolute;
+  width: 300px;
+  top: 220px;
+  margin-right: 85px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.campo {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 45px;
+  margin-top: 90px;
+}
+
+.campo-pass {
+  position: absolute;
+  width: 370px;
+  height: 40px;
+  padding: 29px 50px;
+  border: 0.1px solid #6342E8;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 237px;
+}
+
+.pass{
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 45px;
+  margin-top: 400px;
+}
+
+.passd{
+  position: absolute;
+  width: 370px;
+  height: 40px;
+  padding: 29px 50px;
+  border: 0.1px solid #D2D2D2;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 523px;
+}
+
+.recordar {
+  position: absolute;
+  margin-top: 669px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.boton-falso {
+  position: absolute;
+  width: 370px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  background-color: #6342eb;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-top: 790px;
+}
+
+.registrar {
+  position: absolute;
+  width: 300px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 900px;
+}

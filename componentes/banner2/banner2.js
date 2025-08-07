@@ -28,16 +28,11 @@ export function banner2() {
     div.appendChild(subtitulo);
 
     // Botón LOG IN
-    let loginBoton = document.createElement("div");
-    loginBoton.href = "../../pages/login/login.html";
+    let loginBoton = document.createElement("a");
+    loginBoton.href = "#";
     loginBoton.className = "login-boton";
     loginBoton.textContent = "LOG IN";
     div.appendChild(loginBoton);
-
-    loginBoton.addEventListener('click',()=>{
-        div.classList.add ("ocultar");
-    });
-
 
     // Separador "OR"
     let separator = document.createElement("div");
