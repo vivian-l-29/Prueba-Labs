@@ -33,7 +33,7 @@ export function banner2() {
     loginBoton.className = "login-boton";
     loginBoton.textContent = "LOG IN";
     div.appendChild(loginBoton);
-    
+
     // Separador "OR"
     let separator = document.createElement("div");
     separator.className = "separator";
@@ -55,17 +55,10 @@ export function banner2() {
 
     // Botón REGISTER
     let registerBoton = document.createElement("div");
+    registerBoton.href = "#";
     registerBoton.className = "register-boton";
     registerBoton.textContent = "REGISTER";
     div.appendChild(registerBoton);
-
-    loginBoton.addEventListener('click', (e) => {
-        e.preventDefault();
-        div.classList.add('ocultar'); 
-
-        let loginForm = document.querySelector('.login-fondo');
-        loginForm.classList.add("ocultar")
-    });
 
     return div;
 }
