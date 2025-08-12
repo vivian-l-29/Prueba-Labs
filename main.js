@@ -21,7 +21,7 @@ boton.addEventListener("click", () => {
         contenedor.appendChild(bannerLogin());
     });
 
-    let registerBtn = b2.querySelector(".register-boton");
+    let registerBtn = b2.querySelector(".register-boto");
     registerBtn.addEventListener("click", (e) => {
         e.preventDefault();
         console.log("");
