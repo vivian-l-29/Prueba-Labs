@@ -1,3 +1,3 @@
-import { banner } from "/componentes/banner/banner.js";
+import { banner } from "./componentes/banner/banner.js";
 
 document.body.appendChild(banner());
