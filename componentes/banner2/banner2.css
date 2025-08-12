@@ -53,6 +53,7 @@
     border-radius: 50px;
     font-weight: 600;
     margin-top: 50px;
+    text-decoration: none;
 }
 
 .separator {
@@ -81,6 +82,8 @@
     padding: 29px 125px;
     border-radius: 50px;
     font-weight: 600;
+    text-decoration: none;
+
 }
 
 .ocultar {

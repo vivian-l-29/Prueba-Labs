@@ -8,7 +8,7 @@ export function banner() {
 
     let aBoton = document.createElement("a");
     aBoton.className = "banner-boton"; 
-    aBoton.href = "#";
+    aBoton.href = "../pages/login/login.html";
     aBoton.textContent = "SHOP NOW";
     div.appendChild(aBoton);
 
