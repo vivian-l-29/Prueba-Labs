@@ -8,26 +8,24 @@
   <link rel="stylesheet" href="/componentes/banner2/banner2.css" />
 </head>
 <body>
-    <script type="module">
-        import { banner2 } from '/componentes/banner2/banner2.js';
-        import { bannerLogin } from '/componentes/bannerLogin/bannerLogin.js';
-      
-        let contenedor = document.createElement('div');
-        document.body.appendChild(contenedor);
-      
-        let b2 = banner2();
-        contenedor.appendChild(b2);
-      
-        let login = bannerLogin();
-        login.classList.add('ocultar');
-        contenedor.appendChild(login);
-      
-        let loginBtn = b2.querySelector('.login-boton');
-        loginBtn.addEventListener('click', (e) => {
-          e.preventDefault();
-          b2.classList.add('ocultar');
-          login.classList.remove('ocultar'); 
-        });
-      </script>
-</body>
-</html>
+  <script type="module">
+    import { banner2 } from '../../componentes/banner2/banner2.js';
+    import { bannerLogin } from '../../componentes/bannerLogin/bannerLogin.js';
+  
+    let contenedor = document.createElement('div');
+    document.body.appendChild(contenedor);
+  
+    let b2 = banner2();
+    contenedor.appendChild(b2);
+  
+    let login = bannerLogin();
+    login.classList.add('ocultar');
+    contenedor.appendChild(login);
+  
+    let loginBtn = b2.querySelector('.login-boton');
+    loginBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      b2.classList.add('ocultar');
+      login.classList.remove('ocultar');
+    });
+  </script>
